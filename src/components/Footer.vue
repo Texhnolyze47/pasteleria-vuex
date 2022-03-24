@@ -13,7 +13,9 @@
         <p>Acerca de nosotros</p>
         <p>Aviso Legal</p>
         <p>Política de de cancelación</p>
-        <p>Hecho por Ivan Ramírez</p>
+      </div>
+      <div>
+          <p>Hecho por Ivan Ramírez</p>
       </div>
     </footer>
   </div>
