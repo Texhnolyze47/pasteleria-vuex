@@ -1,21 +1,34 @@
 <template>
-  <NavBar></NavBar>
-
+  <nav>
+    <div class="search">
+      <form action="#">
+        <input type="text" placeholder=" Search Courses" name="search" />
+        <button>
+          <box-icon name="search"></box-icon>
+        </button>
+      </form>
+    </div>
+    <div class="container-title">
+      <h1 class="title-pink">Pastelería</h1>
+      <h1 class="title-blue">Fabricio</h1>
+    </div>
+    <div>
+      <box-icon class="icon" name="cart" color="#ff759f"></box-icon>
+      <box-icon  name="user-circle" color="#ff759f"></box-icon>
+    </div>
+    <div class="container">
+      <ul>
+        <li>Home</li>
+        <li>Pasteles</li>
+        <li>Personaliza tu pastel</li>
+        <li>Acerca de</li>
+        <li>Contáctenos</li>
+      </ul>
+    </div>
+  </nav>
 </template>
 
-<script>
-import NavBar from './components/NavBar.vue'
-
-export default{
-  name: 'app',
-  components:{
-    NavBar
-  }
-}
-
-</script>
-
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
