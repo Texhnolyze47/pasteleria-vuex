@@ -14,11 +14,11 @@
         <p>Aviso Legal</p>
         <p>Política de de cancelación</p>
       </div>
-      <div>
-          <p>Hecho por Ivan Ramírez</p>
-      </div>
     </footer>
   </div>
+   <div>
+          <p>Hecho por Ivan Ramírez</p>
+      </div>
 </template>
 
 <style scoped>
@@ -28,17 +28,17 @@
   flex-direction: row;
   margin-top: 20px;
   width: 100%;
-  height: 250px;
+  height: 150px;
 }
 
 .text{
-   padding-right: 140px;
-    padding-left: 140px;
+   padding-right: 155px;
+    padding-left: 155px;
     color: black;
 }
 .title{
-      padding-right: 200px;
-      padding-left: 140px;
+      padding-right: 155px;
+      padding-left: 155px;
 
 }
 

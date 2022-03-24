@@ -2,7 +2,7 @@
   <nav>
     <div class="search">
       <form action="#">
-        <input type="text" placeholder=" Search Courses" name="search" />
+        <input type="text" placeholder=" Busca un pastel" name="search" />
         <button>
           <box-icon name="search"></box-icon>
         </button>
