@@ -1,0 +1,64 @@
+<template>
+    
+    <div class="slider-frame">
+        <ul>
+            <li><img src="../assets/pexels-alexander-dummer-132694.jpg" alt=""></li>
+            <li><img src="../assets/pexels-daria-shevtsova-1070850.jpg" alt=""></li>
+            <li><img src="../assets/pexels-nestor-cortez-960540.jpg" alt=""></li>
+            <li><img src="../assets/pexels-oriana-ortiz-818789.jpg" alt=""></li>
+        </ul>
+    </div>
+
+</template>
+
+<style scoped>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 100%;
+    height: 700px;
+	margin: auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+</style>

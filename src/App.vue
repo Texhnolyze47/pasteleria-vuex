@@ -1,15 +1,16 @@
 <template>
   <NavBar></NavBar>
-
+  <LandingPage></LandingPage>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-
+import LandingPage from './components/LandingPage.vue'
 export default{
   name: 'app',
   components:{
-    NavBar
+    NavBar,
+    LandingPage
   }
 }
 
@@ -24,74 +25,5 @@ export default{
   color: #2c3e50;
 }
 
-nav {
-  padding-bottom: 10px;
-  background-color: #fff9fa;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-
-/* styling search bar */
-.search input[type="text"] {
-  position: absolute;
-  flex-basis: 40%;
-  width: 300px;
-  height: 25px;
-  border-radius: 25px;
-  border: solid 1px #ff759f;
-}
-form{
-  padding-right: 350px;
-}
-
-.search {
-  float: left;
-}
-
-.search button {
-  position: relative;
-  background-color: rgb(255, 255, 255, 0.1);
-  color: #f2f2f2;
-  margin-left: 270px;
-  margin-top: 1px;
-  margin-right: 16px;
-  font-size: 12px;
-  border: none;
-  cursor: pointer;
-}
-.container-title {
-  display: flex;
-  padding-right: 450px;
-  
-}
-.title-pink {
-  color: #ff759f;
-  padding-right: 10px;
-}
-.title-blue {
-  color: #5bc0eb;
-}
-
-.icon{
-  margin-right: 15px;
-}
-
-.container{
-  padding-left: 500px;
-}
-.container ul li{
-  display: inline-flex;
-  list-style: none;
-  padding-right: 20px;
-}
 </style>
