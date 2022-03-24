@@ -2,10 +2,10 @@
     
     <div class="slider-frame">
         <ul>
-            <li><img src="../assets/pexels-alexander-dummer-132694.jpg" alt=""></li>
-            <li><img src="../assets/pexels-daria-shevtsova-1070850.jpg" alt=""></li>
-            <li><img src="../assets/pexels-nestor-cortez-960540.jpg" alt=""></li>
-            <li><img src="../assets/pexels-oriana-ortiz-818789.jpg" alt=""></li>
+            <li><img src="../assets/slider/pexels-alexander-dummer-132694.jpg" alt=""></li>
+            <li><img src="../assets/slider/pexels-daria-shevtsova-1070850.jpg" alt=""></li>
+            <li><img src="../assets/slider/pexels-nestor-cortez-960540.jpg" alt=""></li>
+            <li><img src="../assets/slider/pexels-oriana-ortiz-818789.jpg" alt=""></li>
         </ul>
     </div>
 

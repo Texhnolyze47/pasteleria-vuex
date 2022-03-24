@@ -1,16 +1,21 @@
 <template>
   <NavBar></NavBar>
   <LandingPage></LandingPage>
+  <Categories></Categories>
+  
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import LandingPage from './components/LandingPage.vue'
+import  Categories from './components/Categories.vue'
+
 export default{
   name: 'app',
   components:{
     NavBar,
-    LandingPage
+    LandingPage,
+    Categories
   }
 }
 
