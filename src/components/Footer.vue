@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <footer>
-        <div>
-            <h2 class="title">Pasteleria Fabricio</h2>
+        <div class="title marca">
+            <h2 class="title-pink" >Pasteleria</h2>
+            <h2 class="title-blue">Fabricio</h2>
             </div>
       <div class="text">
         <p>Dirección: Av. las Torres</p>
@@ -42,8 +43,20 @@
 
 }
 
+.marca{
+     display: flex;
+  flex-direction: row;
+}
 footer {
   display: flex;
   flex-direction: row;
+}
+
+.title-pink {
+  color: #ff759f;
+  padding-right: 10px;
+}
+.title-blue {
+  color: #5bc0eb;
 }
 </style>

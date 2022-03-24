@@ -38,11 +38,12 @@
 }
 
 nav {
-  padding-bottom: 10px;
-  background-color: #fff9fa;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+     padding-bottom: 10px;
+    background-color: #fff9fa;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
 }
 
 nav a {
