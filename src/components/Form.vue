@@ -15,7 +15,7 @@
         <br />
         <label class="margin-right10" for="sabor">Correo Electrónico</label>
         <input type="text" />
-        <h2>Informacion del pastel</h2>
+        <h2>Información del pastel</h2>
 
         <p>Escoge uno</p>
         <input type="text" />
