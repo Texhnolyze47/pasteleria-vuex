@@ -1,9 +1,15 @@
 /<template>
-  <h2>Pasteles</h2>
+  <div>
+    <Pasteles/>
+  </div>
 </template>
 
 <script>
+import Pasteles from '../components/Pasteles.vue'
 export default {
+  components:{
+    Pasteles
+  }
 
 }
 </script>
