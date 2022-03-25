@@ -91,7 +91,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .title {
   margin-top: 15px;
   color: #ff759f;
