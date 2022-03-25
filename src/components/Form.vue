@@ -3,16 +3,18 @@
     <div class="mitad">
     <form id="form-pe">
       <p>Escoge uno </p>
-  <input type="text" value="Sabor" />
+  <input type="text" />
   <br/>
   <label for="sabor">Sabor de pastel</label>
 
         <p>Escoge uno </p>
-  <input type="text" value="Adorno" />
+  <input type="text"  />
   <br/>
   <label for="sabor">Adorno del pastel</label>
-
-   
+<div>
+      <button class="margin-top10">Enviar pedido</button>
+</div>
+ 
   </form>
   
 </div>
@@ -57,6 +59,10 @@ export default {};
 .layout{
 display: flex;
 
+}
+
+.margin-top10{
+    margin-top:10px;
 }
 
 ul li{

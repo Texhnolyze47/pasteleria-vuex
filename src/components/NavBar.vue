@@ -14,7 +14,11 @@
     </div>
     <div>
       <box-icon class="icon" name="cart" color="#ff759f"></box-icon>
-      <box-icon  name="user-circle" color="#ff759f"></box-icon>
+              <router-link to="/inventario">
+                    <box-icon  name="user-circle" color="#ff759f"></box-icon>
+
+              </router-link>
+
     </div>
     <div class="container">
       <ul>
