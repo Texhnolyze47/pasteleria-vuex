@@ -18,11 +18,21 @@
     </div>
     <div class="container">
       <ul>
-        <li>Home</li>
-        <li>Pasteles</li>
-        <li>Personaliza tu pastel</li>
-        <li>Acerca de</li>
-        <li>Contáctenos</li>
+        <li>
+          <router-link to="/">Home</router-link>
+
+        </li>
+        <li>
+          <router-link to="/pasteles">Pasteles</router-link>
+        </li>
+        <li><router-link to="/personalizar-pastel">Personalizar tu pastel</router-link></li>
+
+        <li>
+          <router-link to="/acerca-de">Acerca de</router-link>
+        </li>
+        <li>
+          <router-link to="/contactanos">Contáctenos</router-link>
+        </li>
       </ul>
     </div>
   </nav>

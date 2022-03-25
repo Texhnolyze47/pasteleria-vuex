@@ -1,5 +1,5 @@
 <template>
-  <h2>contactanos</h2>
+  <h2>Contáctenos</h2>
 </template>
 
 <script>

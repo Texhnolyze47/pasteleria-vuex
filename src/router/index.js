@@ -1,22 +1,35 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'Home',
+    component: () => import('../views/HomeView.vue')
   },
   {
-    path: '/about',
-    name: 'about',
-
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/pasteles',
+    name: 'Pasteles',
+    component: () => import('../views/PastelesView.vue')
+  },
+  {
+    path: '/personalizar-pastel',
+    name: 'PersonalizarPastel',
+    component: () => import('../views/CustomPastel.vue')
+  },
+  {
+    path: '/acerca-de',
+    name: 'AcercaDe',
+    component: () => import('../views/AboutView.vue')
+  },
+  {
+    path: '/contactanos',
+    name: 'Contactanos',
+    component: () => import('../views/ContacsUs.vue')
   }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory(process.env.BASE_URL),
   routes
 })
 

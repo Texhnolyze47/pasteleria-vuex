@@ -1,5 +1,5 @@
-<template>
-  <h2>contactanos</h2>
+/<template>
+  <h2>Pasteles</h2>
 </template>
 
 <script>
