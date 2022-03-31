@@ -1,29 +1,25 @@
 <template>
   <div>
-    <NavBar/>
-     <landing-page/>
-     <categories/>
-     <Footer/>
+    <NavBar />
+    <landing-page />
+    <categories />
+    <Footer />
   </div>
 </template>
 
 <script>
-import LandingPage from '../components/LandingPage.vue'
-import Categories from '../components/Categories.vue'
-import Footer from '../components/Footer.vue'
+import LandingPage from "../components/LandingPage.vue";
+import Categories from "../components/Categories.vue";
+import Footer from "../components/Footer.vue";
 
-
-export default{
-  name: 'app',
-  components:{
+export default {
+  name: "app",
+  components: {
     LandingPage,
     Categories,
-    Footer
-  }
-}
-
+    Footer,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

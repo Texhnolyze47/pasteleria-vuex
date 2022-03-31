@@ -1,19 +1,17 @@
 <template>
-<Pedidos/>
-<Footer></Footer>
+  <Pedidos />
+  <Footer></Footer>
 </template>
 
 <script>
-import Footer from '../components/Footer.vue'
-import Pedidos from '../components/Pedidos.vue';
+import Footer from "../components/Footer.vue";
+import Pedidos from "../components/Pedidos.vue";
 export default {
-    components:{
-        Footer,
-        Pedidos
-    }
-}
+  components: {
+    Footer,
+    Pedidos,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
