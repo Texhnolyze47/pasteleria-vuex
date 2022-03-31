@@ -16,18 +16,26 @@
         <input type="email" v-model="correo" />
         <h2>Información del pastel</h2>
 
-        <p>Escoge uno</p>
+        <div class="layout-column">
+           <p>Escoge uno</p>
         <input type="text" v-model="sabores" />
-        <br />
-        <label class="margin-right10">Sabor de pastel</label>
+                <label class="margin-right10 margin-top10">Sabor de pastel</label>
 
-        <p>Escoge uno</p>
-        <input type="text" v-model="adornos" />
-        <br />
-        <label>Adorno del pastel</label>
-        <div>
-          <button  v-on="addPedido" class="margin-top10 boton">Enviar pedido</button>
         </div>
+       
+            
+  <div class="layout-column">
+     <p>Escoge uno</p>
+        <input type="text" v-model="adornos" />
+
+
+        <label class="margin-right10 margin-top10" >Adorno del pastel </label>
+  </div>
+
+       
+        
+          <button  v-on="addPedido" class="margin-top10 boton">Enviar pedido</button>
+       
       </form>
     </div>
     <div class="mitad">
@@ -93,6 +101,14 @@ export default {
   display: flex;
 }
 
+.layout-column {
+     display: flex;
+    align-content: stretch;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 .margin-top10 {
   margin-top: 10px;
 }
@@ -108,6 +124,8 @@ ul li {
 }
 .boton{
   background-color:  #5bc0eb;
+  margin-top: 20px;
+  margin-bottom:20px ;
   border-color: #5bc0eb;
   color: white;
 }
