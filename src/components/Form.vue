@@ -84,7 +84,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .mitad {
   width: 50%;
 }
@@ -102,6 +102,7 @@ export default {
 
 ul li {
   list-style: none;
-  text-align: initial;
+  padding-right: 40px;
+  text-align: center;
 }
 </style>
