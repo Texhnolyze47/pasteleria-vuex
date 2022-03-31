@@ -9,11 +9,11 @@
         <br />
         <br />
         <label class="margin-right10">Numero de teléfono</label>
-        <input type="text" v-model="numero" />
+        <input type="number" v-model="numero" />
         <br />
         <br />
         <label class="margin-right10">Correo Electrónico</label>
-        <input type="text" v-model="correo" />
+        <input type="email" v-model="correo" />
         <h2>Información del pastel</h2>
 
         <p>Escoge uno</p>
@@ -26,7 +26,7 @@
         <br />
         <label>Adorno del pastel</label>
         <div>
-          <button v-on="addPedido" class="margin-top10">Enviar pedido</button>
+          <button  v-on="addPedido" class="margin-top10 boton">Enviar pedido</button>
         </div>
       </form>
     </div>
@@ -103,6 +103,18 @@ export default {
 ul li {
   list-style: none;
   padding-right: 40px;
+  padding-top: 10px ;
   text-align: center;
+}
+.boton{
+  background-color:  #5bc0eb;
+  border-color: #5bc0eb;
+  color: white;
+}
+
+.boton:hover{
+   background-color:  #ff759f;
+  border-color: #ff759f;
+  color: white;
 }
 </style>
