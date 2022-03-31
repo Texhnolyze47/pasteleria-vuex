@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <footer>
-        <div class="title marca">
-            <h2 class="title-pink" >Pasteleria</h2>
-            <h2 class="title-blue">Fabricio</h2>
-            </div>
+      <div class="title marca">
+        <h2 class="title-pink">Pasteleria</h2>
+        <h2 class="title-blue">Fabricio</h2>
+      </div>
       <div class="text">
         <p>Dirección: Av. las Torres</p>
         <p>Teléfono: 2222222222</p>
@@ -17,13 +17,12 @@
       </div>
     </footer>
   </div>
-   <div>
-          <p>Hecho por Ivan Ramírez</p>
-      </div>
+  <div>
+    <p>Hecho por Ivan Ramírez</p>
+  </div>
 </template>
 
 <style scoped>
-
 .container {
   display: flex;
   flex-direction: row;
@@ -32,19 +31,18 @@
   height: 150px;
 }
 
-.text{
-   padding-right: 155px;
-    padding-left: 155px;
-    color: black;
+.text {
+  padding-right: 155px;
+  padding-left: 155px;
+  color: black;
 }
-.title{
-      padding-right: 155px;
-      padding-left: 155px;
-
+.title {
+  padding-right: 155px;
+  padding-left: 155px;
 }
 
-.marca{
-     display: flex;
+.marca {
+  display: flex;
   flex-direction: row;
 }
 footer {

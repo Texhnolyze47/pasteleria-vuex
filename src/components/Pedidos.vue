@@ -38,7 +38,6 @@
         <td>{{ item.correo }}</td>
         <td>{{ item.sabores }}</td>
         <td>{{ item.adornos }}</td>
-       
       </tr>
     </table>
   </div>
@@ -48,12 +47,12 @@
 export default {
   data() {
     return {
-     pedidos: [],
-     pedido: '',
+      pedidos: [],
+      pedido: "",
     };
   },
   mounted() {
-    this.pedidos = JSON.parse(localStorage.getItem('pedidos'));
+    this.pedidos = JSON.parse(localStorage.getItem("pedidos"));
   },
 };
 </script>
@@ -63,8 +62,8 @@ export default {
   display: flex;
   flex-direction: column;
   height: 50%;
-   margin-top:  5%;
-   margin-bottom:  5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   width: 100%;
 }
 .pedido {
@@ -72,8 +71,7 @@ export default {
   flex-direction: column;
   height: 50%;
   width: 100%;
-  margin-top:  5%;
-   margin-bottom:  5%;
-
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 </style>
