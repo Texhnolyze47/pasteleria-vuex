@@ -14,22 +14,23 @@
     </div>
     <div>
       <box-icon class="icon" name="cart" color="#ff759f"></box-icon>
-              <router-link to="/inventario">
-                    <box-icon  name="user-circle" color="#ff759f"></box-icon>
-
-              </router-link>
-
+      <router-link to="/inventario">
+        <box-icon name="user-circle" color="#ff759f"></box-icon>
+      </router-link>
     </div>
     <div class="container">
       <ul>
         <li>
           <router-link to="/">Home</router-link>
-
         </li>
         <li>
           <router-link to="/pasteles">Pasteles</router-link>
         </li>
-        <li><router-link to="/personalizar-pastel">Personalizar tu pastel</router-link></li>
+        <li>
+          <router-link to="/personalizar-pastel"
+            >Personalizar tu pastel</router-link
+          >
+        </li>
 
         <li>
           <router-link to="/acerca-de">Acerca de</router-link>
@@ -52,19 +53,18 @@
 }
 
 nav {
-     padding-bottom: 10px;
-    background-color: #fff9fa;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
+  padding-bottom: 10px;
+  background-color: #fff9fa;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
 }
 
 nav a {
   font-weight: bold;
   color: #2c3e50;
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active {
@@ -80,7 +80,7 @@ nav a.router-link-exact-active {
   border-radius: 25px;
   border: solid 1px #ff759f;
 }
-form{
+form {
   padding-right: 350px;
 }
 
@@ -102,7 +102,6 @@ form{
 .container-title {
   display: flex;
   padding-right: 450px;
-  
 }
 .title-pink {
   color: #ff759f;
@@ -112,14 +111,14 @@ form{
   color: #5bc0eb;
 }
 
-.icon{
+.icon {
   margin-right: 15px;
 }
 
-.container{
+.container {
   padding-left: 500px;
 }
-.container ul li{
+.container ul li {
   display: inline-flex;
   list-style: none;
   padding-right: 20px;

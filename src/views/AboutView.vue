@@ -1,7 +1,7 @@
 <template>
   <h2>Nuestra Historia</h2>
-  <historia/>
-  <Footer/>
+  <historia />
+  <Footer />
 </template>
 
 <script>
@@ -11,10 +11,9 @@ import Footer from "../components/Footer.vue";
 export default {
   components: {
     Historia,
-    Footer
+    Footer,
   },
 };
 </script>
 
-<style>
-</style>
+<style></style>

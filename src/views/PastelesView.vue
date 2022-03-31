@@ -1,22 +1,19 @@
-/<template>
+<template>
   <div>
-    <Pasteles/>
-    <Footer/>
+    <Pasteles />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Pasteles from '../components/Pasteles.vue'
-import Footer from '../components/Footer.vue'
+import Pasteles from "../components/Pasteles.vue";
+import Footer from "../components/Footer.vue";
 export default {
-  components:{
+  components: {
     Pasteles,
-    Footer
-  }
-
-}
+    Footer,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

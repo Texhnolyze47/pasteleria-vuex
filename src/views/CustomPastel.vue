@@ -1,20 +1,17 @@
 <template>
-<Form></Form>
-<Footer></Footer>
-
+  <Form></Form>
+  <Footer></Footer>
 </template>
 
 <script>
-import Form from '../components/Form.vue'
-import Footer from '../components/Footer.vue'
+import Form from "../components/Form.vue";
+import Footer from "../components/Footer.vue";
 export default {
-components:{
+  components: {
     Form,
-    Footer
-}
-}
+    Footer,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

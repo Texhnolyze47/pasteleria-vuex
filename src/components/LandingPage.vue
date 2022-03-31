@@ -1,13 +1,20 @@
 <template>
-    
-    <div class="slider-frame">
-        <ul>
-            <li><img src="../assets/slider/pexels-alexander-dummer-132694.jpg" alt=""></li>
-            <li><img src="../assets/slider/pexels-nestor-cortez-960540.jpg" alt=""></li>
-            <li><img src="../assets/slider/pexels-oriana-ortiz-818789.jpg" alt=""></li>
-        </ul>
-    </div>
-
+  <div class="slider-frame">
+    <ul>
+      <li>
+        <img src="../assets/slider/pexels-alexander-dummer-132694.jpg" alt="" />
+      </li>
+      <li>
+        <img src="../assets/slider/pexels-daria-shevtsova-1070850.jpg" alt="" />
+      </li>
+      <li>
+        <img src="../assets/slider/pexels-oriana-ortiz-818789.jpg" alt="" />
+      </li>
+      <li>
+        <img src="../assets/slider/pexels-nestor-cortez-960540.jpg" alt="" />
+      </li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
@@ -16,20 +23,17 @@
     padding: 0;
     font-family: lato;
 }
-
 h2 {
     text-align: center;
     font-size: 2rem;
     padding-top: 50px;
 }
-
 .slider-frame {
 	width: 100%;
     height: 700px;
 	margin: auto 0;
 	overflow: hidden;
 }
-
 .slider-frame ul {
 	display: flex;
 	padding: 0;
@@ -37,16 +41,13 @@ h2 {
 	
 	animation: slide 20s infinite alternate ease-in-out;
 }
-
 .slider-frame li {
 	width: 100%;
 	list-style: none;
 }
-
 .slider-frame img {
 	width: 100%;
 }
-
 @keyframes slide {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}

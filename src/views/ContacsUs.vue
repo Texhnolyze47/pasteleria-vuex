@@ -1,19 +1,18 @@
 <template>
-  <Contacto/>
-  <Footer/>
+  <Contacto />
+  <Footer />
 </template>
 
 <script>
- import Contacto from "../components/ContactoC.vue"
- import Footer from "../components/Footer.vue";
+import Contacto from "../components/ContactoC.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
-  components:{
-  Contacto, 
-  Footer
-  }
-}
+  components: {
+    Contacto,
+    Footer,
+  },
+};
 </script>
 
-<style>
-</style>
+<style></style>
